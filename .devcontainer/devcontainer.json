@@ -9,8 +9,12 @@
 		},
 
 	"mounts": [
-		"source=${localEnv:HOME}/Documents/academic/data/Murphy2021,target=${containerWorkspaceFolder}/data/Murphy2021,type=bind,consistency=cached"
-	]
+        "source=${localEnv:USERPROFILE}/Documents/academic/data/Murphy2021,target=/workspaces/Copy_Murphy2021/data/Murphy2021,type=bind,consistency=cached"
+    ]
+
+	// "mounts": [
+	// 	"source=${localEnv:HOME}/Documents/academic/data/Murphy2021,target=${containerWorkspaceFolder}/data/Murphy2021,type=bind,consistency=cached"
+	// ]
 
 	// added to solve bug
 	// "initializeCommand" : "ls"
