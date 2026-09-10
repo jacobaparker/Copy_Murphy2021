@@ -9,7 +9,8 @@
 		},
 
 	"mounts": [
-        "source=${localEnv:USERPROFILE}/Documents/academic/data/Murphy2021,target=/workspaces/Copy_Murphy2021/data/Murphy2021,type=bind,consistency=cached"
+        "source=${localEnv:USERPROFILE}/Documents/academic/data/Murphy2021,target=/workspaces/Copy_Murphy2021/data/Murphy2021,type=bind,consistency=cached",
+		"source=${localEnv:USERPROFILE}/Documents/academic/data/Murphy_pharma/Murphy_task_drug,target=/workspaces/Copy_Murphy2021/data/Murphy_pharma,type=bind,consistency=cached"
     ]
 
 	// "mounts": [
