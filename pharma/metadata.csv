@@ -1,0 +1,181 @@
+participant,session,run,H,drug,n_blocks,n_trials,block_numbers,block_number_gap
+CMC,1,1,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CMC,1,2,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CMC,2,1,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CMC,2,2,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CMC,3,1,0.9,donepizil,8,647,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CMC,3,2,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CPG,1,1,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CPG,1,2,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CPG,2,1,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CPG,2,2,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CPG,3,1,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CPG,3,2,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CTG,1,1,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CTG,1,2,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CTG,2,1,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CTG,2,2,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CTG,3,1,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CTG,3,2,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CYK,1,1,0.1,placebo,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+CYK,1,2,0.9,placebo,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+CYK,2,1,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CYK,2,2,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+CYK,3,1,0.1,donepizil,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+CYK,3,2,0.9,donepizil,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+EJG,1,1,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+EJG,1,2,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+EJG,2,1,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+EJG,2,2,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+EJG,3,1,0.9,donepizil,8,647,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+EJG,3,2,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+FDC,1,1,0.9,placebo,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+FDC,1,2,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+FDC,2,1,0.9,atomoxetine,6,516,"(1, 2, 3, 4, 5, 6)",False
+FDC,2,2,0.1,atomoxetine,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+FDC,3,1,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+FDC,3,2,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+FLW,1,1,0.9,donepizil,8,638,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+FLW,1,2,0.1,donepizil,8,645,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+FLW,2,1,0.9,atomoxetine,8,651,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+FLW,2,2,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+FLW,3,1,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+FLW,3,2,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+FNC,1,1,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+FNC,1,2,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+FNC,2,1,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+FNC,2,2,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+FNC,3,1,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+FNC,3,2,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+GHT,1,1,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+GHT,1,2,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+GHT,2,1,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+GHT,2,2,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+GHT,3,1,0.9,atomoxetine,11,946,"(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)",False
+GHT,3,2,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+HFK,1,1,0.1,atomoxetine,8,645,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+HFK,1,2,0.9,atomoxetine,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+HFK,2,1,0.9,donepizil,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+HFK,2,2,0.1,donepizil,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+HFK,3,1,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+HFK,3,2,0.1,placebo,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+HOG,1,1,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+HOG,1,2,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+HOG,2,1,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+HOG,2,2,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+HOG,3,1,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+HOG,3,2,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+ICD,1,1,0.1,donepizil,8,645,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+ICD,1,2,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+ICD,2,1,0.9,placebo,8,645,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+ICD,2,2,0.1,placebo,8,657,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+ICD,3,1,0.9,atomoxetine,8,645,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+ICD,3,2,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+JPK,1,1,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+JPK,1,2,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+JPK,2,1,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+JPK,2,2,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+JPK,3,1,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+JPK,3,2,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+LOK,1,1,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+LOK,1,2,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+LOK,2,1,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+LOK,2,2,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+LOK,3,1,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+LOK,3,2,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+MDC,1,1,0.1,donepizil,8,629,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+MDC,1,2,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+MDC,2,1,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+MDC,2,2,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+MDC,3,1,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+MDC,3,2,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+MJQ,1,1,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+MJQ,1,2,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+MJQ,2,1,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+MJQ,2,2,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+MJQ,3,1,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+MJQ,3,2,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+MLC,1,1,0.9,atomoxetine,8,645,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+MLC,1,2,0.1,atomoxetine,8,632,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+MLC,2,1,0.9,donepizil,8,645,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+MLC,2,2,0.1,donepizil,8,645,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+MLC,3,1,0.1,placebo,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+MLC,3,2,0.9,placebo,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+NDT,1,1,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+NDT,1,2,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+NDT,2,1,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+NDT,2,2,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+NDT,3,1,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+NDT,3,2,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+OIG,1,1,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+OIG,1,2,0.9,placebo,8,647,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+OIG,2,1,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+OIG,2,2,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+OIG,3,1,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+OIG,3,2,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+QLW,1,1,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+QLW,1,2,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+QLW,2,1,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+QLW,2,2,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+QLW,3,1,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+QLW,3,2,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+RGT,1,1,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+RGT,1,2,0.9,placebo,8,645,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+RGT,2,1,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+RGT,2,2,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+RGT,3,1,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+RGT,3,2,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+ROW,1,1,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+ROW,1,2,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+ROW,2,1,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+ROW,2,2,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+ROW,3,1,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+ROW,3,2,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+RPC,1,1,0.9,placebo,8,645,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+RPC,1,2,0.1,placebo,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+RPC,2,1,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+RPC,2,2,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+RPC,3,1,0.1,atomoxetine,6,516,"(1, 2, 3, 4, 5, 6)",False
+RPC,3,2,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+TMW,1,1,0.9,atomoxetine,8,670,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+TMW,1,2,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+TMW,2,1,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+TMW,2,2,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+TMW,3,1,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+TMW,3,2,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+UDK,1,1,0.9,placebo,9,692,"(1, 2, 3, 4, 5, 6, 7, 8, 9)",False
+UDK,1,2,0.1,placebo,8,621,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+UDK,2,1,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+UDK,2,2,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+UDK,3,1,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+UDK,3,2,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+UOC,1,1,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+UOC,1,2,0.1,donepizil,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+UOC,2,1,0.1,atomoxetine,7,585,"(1, 2, 3, 4, 5, 6, 7)",False
+UOC,2,2,0.9,atomoxetine,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+UOC,3,1,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+UOC,3,2,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+URG,1,1,0.9,donepizil,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+URG,1,2,0.1,donepizil,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+URG,2,1,0.1,atomoxetine,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+URG,2,2,0.9,atomoxetine,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+URG,3,1,0.1,placebo,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+URG,3,2,0.9,placebo,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+UXQ,1,1,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+UXQ,1,2,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+UXQ,2,1,0.9,atomoxetine,7,602,"(1, 2, 3, 4, 5, 6, 7)",False
+UXQ,2,2,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+UXQ,3,1,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+UXQ,3,2,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+VTQ,1,1,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+VTQ,1,2,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+VTQ,2,1,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+VTQ,2,2,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+VTQ,3,1,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+VTQ,3,2,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+XUE,1,1,0.1,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+XUE,1,2,0.9,atomoxetine,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+XUE,2,1,0.1,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+XUE,2,2,0.9,donepizil,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+XUE,3,1,0.9,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False
+XUE,3,2,0.1,placebo,8,688,"(1, 2, 3, 4, 5, 6, 7, 8)",False

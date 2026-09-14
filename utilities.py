@@ -50,6 +50,34 @@ def get_Iry_CI(R,Y,CI,boot_iters,Rcard=2,Ycard=2,seed=234,N_threads=1):
     Iry_boot = get_bootstrapped_Iry(R,Y,boot_iters,Rcard=Rcard,Ycard=Ycard,seed=seed,N_threads=N_threads)
     return np.percentile(Iry_boot,CI)
 
+def Iry_cond_boot_iter(args):
+    Xemp, Remp, Yemp, Rcard, Ycard, baseseed, iterseed = args
+    rng = np.random.default_rng(baseseed+iterseed)
+    Xunique = np.unique(Xemp, axis=0)
+    Remp_boot = []
+    Yemp_boot = []
+    for X in Xunique:
+        Remp_x = Remp[Xemp==X]
+        Yemp_x = Yemp[Xemp==X]
+        bootinds = rng.choice(Remp_x.shape[0], Remp_x.shape[0])
+        Remp_boot.append(Remp_x[bootinds])
+        Yemp_boot.append(Yemp_x[bootinds])
+
+    Remp_boot = np.concatenate(Remp_boot)
+    Yemp_boot = np.concatenate(Yemp_boot)
+    return mutual_inf_nsb(Remp_boot, Yemp_boot, [Rcard, Ycard])
+
+def get_bootstrapped_Iry_cond(Xemp, Remp, Yemp, iters=1000, Rcard=2, Ycard=2, seed=234, N_threads=1):
+    with mp.Pool(processes=N_threads) as pool:
+        results = [pool.apply_async(Iry_cond_boot_iter, args=((Xemp, Remp, Yemp, Rcard, Ycard, seed, iterseed),)) for iterseed in range(iters)]
+        Iry_boot = [res.get() for res in results]
+    return np.array(Iry_boot)
+
+def get_Iry_cond_CI(X, R, Y, CI, boot_iters, Rcard=2, Ycard=2, seed=234, N_threads=1):
+    Iry_boot = get_bootstrapped_Iry_cond(X, R, Y, boot_iters, Rcard=Rcard, Ycard=Ycard, seed=seed, N_threads=N_threads)
+    return np.percentile(Iry_boot, CI)
+
+
 # def get_bootstrapped_Iry(R,Y,iters=1000,Rcard=2,Ycard=2,seed=234,pseed=0):
 #     Iry_boot = []
 
