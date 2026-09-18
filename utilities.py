@@ -57,8 +57,10 @@ def Iry_cond_boot_iter(args):
     Remp_boot = []
     Yemp_boot = []
     for X in Xunique:
-        Remp_x = Remp[Xemp==X]
-        Yemp_x = Yemp[Xemp==X]
+        # print(X)
+        xinds = np.all(Xemp == X, axis=1)
+        Remp_x = Remp[xinds]
+        Yemp_x = Yemp[xinds]
         bootinds = rng.choice(Remp_x.shape[0], Remp_x.shape[0])
         Remp_boot.append(Remp_x[bootinds])
         Yemp_boot.append(Yemp_x[bootinds])
